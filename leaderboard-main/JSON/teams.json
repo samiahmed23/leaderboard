@@ -1,0 +1,20 @@
+{
+  "teams": [
+
+    {
+      "name": "SE",
+      "number": 1,
+      "project": ""
+    },
+    {
+      "name": "TE",
+      "number": 2,
+      "project": ""
+    },
+    {
+      "name": "BE",
+      "number": 3,
+      "project": ""
+    }
+  ]
+}
