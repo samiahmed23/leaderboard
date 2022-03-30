@@ -26,13 +26,13 @@ $(document).ready(function() {
 
   // Calculate the totals -----------------------------------------------------
   $(document).on("change", "input[type='number']", function() {
-    var currentInnovation = parseInt($(this).parents().eq(2).find(".input-innovation").val());
-    var currentImpact = parseInt($(this).parents().eq(2).find(".input-impact").val());
-    var currentTechnicalMerit = parseInt($(this).parents().eq(2).find(".input-technical-merit").val());
-    var currentUsability = parseInt($(this).parents().eq(2).find(".input-usability").val());
-    //var currentPresentation = parseInt($(this).parents().eq(2).find(".input-presentation").val());
+    var debug = parseInt($(this).parents().eq(2).find(".input-innovation").val());
+    var logo = parseInt($(this).parents().eq(2).find(".input-impact").val());
+    var movie = parseInt($(this).parents().eq(2).find(".input-technical-merit").val());
+    var lang = parseInt($(this).parents().eq(2).find(".input-usability").val());
+    var cp = parseInt($(this).parents().eq(2).find(".input-presentation").val());
     // Calculate total
-    var currentTotal = ((currentInnovation) + (currentImpact) + (currentTechnicalMerit) + (currentUsability));
+    var currentTotal = ((debug) + (logo) + (movie) + (lang) + (cp));
     // Set total to integer, non-decimal
     currentTotal = currentTotal.toFixed(0);
     // Write the total to the current field
@@ -50,51 +50,51 @@ $(document).ready(function() {
     var clickedOnDescription = $(this).data("description");
 
     switch (clickedOnDescription) {
-      case "presentation":
+      case "cp":
 
         // Open the modal
-        //$("#description-modal").modal("show");
-        //$("#description-title").text("Presentation");
-        //$("#description-text").text("game description");
+        $("#description-modal").modal("show");
+        $("#description-title").text("CP");
+        $("#description-text").text("game description");
 
         "Sunday";
         break;
-      case "technical merit":
+      case "gtlang":
 
         // Open the modal
         $("#description-modal").modal("show");
         $("#description-title").text("Guess the language");
-        //$("#description-text").text("game description");
+        $("#description-text").text("game description");
 
 
         "Monday";
         break;
-      case "usability":
+      case "gtmovie":
 
         // Open the modal
         $("#description-modal").modal("show");
         $("#description-title").text("Guess the movie");
-        //$("#description-text").text("game description");
+        $("#description-text").text("game description");
 
 
         "Tuesday";
         break;
-      case "impact":
+      case "gtlogo":
 
         // Open the modal
         $("#description-modal").modal("show");
         $("#description-title").text("Guess the logo");
-        //$("#description-text").text("game description");
+        $("#description-text").text("game description");
 
 
         "Wednesday";
         break;
-      case "innovation":
+      case "debugging":
 
         // Open the modal
         $("#description-modal").modal("show");
         $("#description-title").text("Debugging");
-        //$("#description-text").text("game description");
+        $("#description-text").text("game description");
 
 
         "Thursday";
