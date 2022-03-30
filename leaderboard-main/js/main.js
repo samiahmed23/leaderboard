@@ -55,7 +55,7 @@ $(document).ready(function() {
         // Open the modal
         //$("#description-modal").modal("show");
         //$("#description-title").text("Presentation");
-        //$("#description-text").text("Through the final presentation, the team should clearly communicate the final value of the project. The final presentation of the product to the judges should be professional, well-structured, and meaningful. The team may also wish to describe their process and developmental hurdles and how they overcame them.");
+        //$("#description-text").text("game description");
 
         "Sunday";
         break;
@@ -64,7 +64,7 @@ $(document).ready(function() {
         // Open the modal
         $("#description-modal").modal("show");
         $("#description-title").text("Guess the language");
-        //$("#description-text").text("The application was technically challenging to construct, requiring strong programming skills from the team. The team made wise choices in selecting conventional but creative components and libraries to construct the app. The the complexity and elegance of the back-end matches the front-end.");
+        //$("#description-text").text("game description");
 
 
         "Monday";
@@ -74,7 +74,7 @@ $(document).ready(function() {
         // Open the modal
         $("#description-modal").modal("show");
         $("#description-title").text("Guess the movie");
-        //$("#description-text").text("Usability represents ease-of-use in engaging with content and services. The project should exemplify the highest standards of intuitive and elegant User Experience Design (UX). The project should easily, pleasantly, safely, and elegantly help users to connect with others and build community.");
+        //$("#description-text").text("game description");
 
 
         "Tuesday";
@@ -84,7 +84,7 @@ $(document).ready(function() {
         // Open the modal
         $("#description-modal").modal("show");
         $("#description-title").text("Guess the logo");
-        //$("#description-text").text("The proposed solution should have a significant impact on the challenges in using technology to promote community. For example, solutions could change the way users organize, communicate, schedule, or manage our personal, academic, or work lives.");
+        //$("#description-text").text("game description");
 
 
         "Wednesday";
@@ -94,7 +94,7 @@ $(document).ready(function() {
         // Open the modal
         $("#description-modal").modal("show");
         $("#description-title").text("Debugging");
-        //$("#description-text").text("The project should take a unique, interesting, and creative approach to solving the problem(s) identified by this year's theme. This criterion looks at novel or cutting edge methods for user interaction, data manipulation and presentation, and use of new technology.");
+        //$("#description-text").text("game description");
 
 
         "Thursday";
